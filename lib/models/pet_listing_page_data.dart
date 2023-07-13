@@ -1,11 +1,12 @@
 import 'package:get/get.dart';
 
 class PetListingPageData {
-  static const rootPath = "images";
+  static const rootPathDog = "images/dog";
+  static const rootPathCat = "images/cat";
   Map<String, List<Map<String, dynamic>>> petDataList = {
     "dogData": [
       {
-        "imgSrc": "$rootPath/dog/1.jpeg",
+        "imgSrc": "$rootPathDog/1.jpeg",
         "name": "Max",
         "id": "dogData_1",
         "age": "1",
@@ -13,7 +14,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/dog/2.jpeg",
+        "imgSrc": "$rootPathDog/2.jpeg",
         "name": "Bailey",
         "id": "dogData_2",
         "age": "2",
@@ -21,7 +22,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/dog/3.jpeg",
+        "imgSrc": "$rootPathDog/3.jpeg",
         "name": "Stella",
         "id": "dogData_3",
         "age": "3",
@@ -29,7 +30,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/dog/4.jpeg",
+        "imgSrc": "$rootPathDog/4.jpeg",
         "name": "Duke",
         "id": "dogData_4",
         "age": "4",
@@ -37,7 +38,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/dog/5.jpeg",
+        "imgSrc": "$rootPathDog/5.jpeg",
         "name": "Sadie",
         "id": "dogData_5",
         "age": "5",
@@ -45,7 +46,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/dog/6.jpeg",
+        "imgSrc": "$rootPathDog/6.jpeg",
         "name": "Tucker",
         "id": "dogData_6",
         "age": "6",
@@ -53,7 +54,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/dog/7.jpeg",
+        "imgSrc": "$rootPathDog/7.jpeg",
         "name": "Olive",
         "id": "dogData_7",
         "age": "7",
@@ -61,7 +62,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/dog/8.jpeg",
+        "imgSrc": "$rootPathDog/8.jpeg",
         "name": "Milo",
         "id": "dogData_8",
         "age": "8",
@@ -69,7 +70,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/dog/9.jpeg",
+        "imgSrc": "$rootPathDog/9.jpeg",
         "name": "Ruby",
         "id": "dogData_9",
         "age": "9",
@@ -77,7 +78,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/dog/10.jpeg",
+        "imgSrc": "$rootPathDog/10.jpeg",
         "name": "Baxter",
         "id": "dogData_10",
         "age": "8",
@@ -85,7 +86,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/dog/11.jpeg",
+        "imgSrc": "$rootPathDog/11.jpeg",
         "name": "Cooper",
         "id": "dogData_11",
         "age": "7",
@@ -93,7 +94,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/dog/12.jpeg",
+        "imgSrc": "$rootPathDog/12.jpeg",
         "name": "Luna",
         "id": "dogData_12",
         "age": "7",
@@ -101,7 +102,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/dog/13.jpeg",
+        "imgSrc": "$rootPathDog/13.jpeg",
         "name": "Rocky",
         "id": "dogData_13",
         "age": "6",
@@ -109,7 +110,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/dog/14.jpeg",
+        "imgSrc": "$rootPathDog/14.jpeg",
         "name": "Penny",
         "id": "dogData_14",
         "age": "8",
@@ -117,7 +118,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/dog/15.jpeg",
+        "imgSrc": "$rootPathDog/15.jpeg",
         "name": "Bentley",
         "id": "dogData_15",
         "age": "7",
@@ -125,7 +126,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/dog/16.jpeg",
+        "imgSrc": "$rootPathDog/16.jpeg",
         "name": "Hazel",
         "id": "dogData_16",
         "age": "6",
@@ -133,7 +134,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/dog/17.jpeg",
+        "imgSrc": "$rootPathDog/17.jpeg",
         "name": "Charlie",
         "id": "dogData_17",
         "age": "8",
@@ -141,7 +142,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/dog/18.jpeg",
+        "imgSrc": "$rootPathDog/18.jpeg",
         "name": "Rosie",
         "id": "dogData_18",
         "age": "7",
@@ -149,7 +150,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/dog/19.jpeg",
+        "imgSrc": "$rootPathDog/19.jpeg",
         "name": "Jackson",
         "id": "dogData_19",
         "age": "5",
@@ -157,7 +158,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/dog/20.jpeg",
+        "imgSrc": "$rootPathDog/20.jpeg",
         "name": "Willow",
         "id": "dogData_20",
         "age": "9",
@@ -167,7 +168,7 @@ class PetListingPageData {
     ],
     "catData": [
       {
-        "imgSrc": "$rootPath/cat/1.jpeg",
+        "imgSrc": "$rootPathCat/1.jpeg",
         "name": "Ash",
         "id": "catData_1",
         "age": "9",
@@ -175,7 +176,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/cat/2.jpeg",
+        "imgSrc": "$rootPathCat/2.jpeg",
         "name": "Bella",
         "id": "catData_2",
         "age": "9",
@@ -183,7 +184,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/cat/3.jpeg",
+        "imgSrc": "$rootPathCat/3.jpeg",
         "name": "Coco",
         "id": "catData_3",
         "age": "9",
@@ -191,7 +192,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/cat/4.jpeg",
+        "imgSrc": "$rootPathCat/4.jpeg",
         "name": "Dexter",
         "id": "catData_4",
         "age": "9",
@@ -199,7 +200,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/cat/5.jpeg",
+        "imgSrc": "$rootPathCat/5.jpeg",
         "name": "Ember",
         "id": "catData_5",
         "age": "9",
@@ -207,7 +208,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/cat/6.jpeg",
+        "imgSrc": "$rootPathCat/6.jpeg",
         "name": "Felix",
         "id": "catData_6",
         "age": "9",
@@ -215,7 +216,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/cat/7.jpeg",
+        "imgSrc": "$rootPathCat/7.jpeg",
         "name": "Gizmo",
         "id": "catData_7",
         "age": "9",
@@ -223,7 +224,7 @@ class PetListingPageData {
         "isAdopted": false.obs,
       },
       {
-        "imgSrc": "$rootPath/cat/8.jpeg",
+        "imgSrc": "$rootPathCat/8.jpeg",
         "name": "Hazelio",
         "id": "catData_8",
         "age": "9",
