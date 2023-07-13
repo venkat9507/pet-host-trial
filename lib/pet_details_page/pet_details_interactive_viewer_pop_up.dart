@@ -75,7 +75,9 @@ class PetDetailsInteractiveViewerPopUp extends StatelessWidget {
           child: Text(
             'Close',
             style: TextStyle(
-              color: themeController.isDarkMode ? Colors.white : Colors.grey.shade400,
+              color: themeController.isDarkMode
+                  ? Colors.white
+                  : Colors.grey.shade400,
             ),
           ),
           onPressed: () {
