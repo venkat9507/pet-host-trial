@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
 
 class PetListingPageData {
-  static const rootPathDog = "images/dog";
-  static const rootPathCat = "images/cat";
+  static const rootPathDog = "assets/images/dog";
+  static const rootPathCat = "assets/images/cat";
   Map<String, List<Map<String, dynamic>>> petDataList = {
     "dogData": [
       {

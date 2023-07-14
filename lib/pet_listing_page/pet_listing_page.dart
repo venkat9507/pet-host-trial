@@ -224,10 +224,12 @@ class PetListingPage extends StatelessWidget {
                             height: 400,
                             decoration: BoxDecoration(
                               shape: BoxShape.circle,
-                              image: DecorationImage(
-                                  fit: BoxFit.cover,
-                                  image: AssetImage(datum['imgSrc'])),
+                              // image: DecorationImage(
+                              //     fit: BoxFit.cover,
+                              //     image:
+                              //         AssetImage("assets/images/dog/1.jpeg")),
                             ),
+                            child: Image.asset("assets/images/dog/1.jpeg"),
                           ),
                         ),
                       ),
