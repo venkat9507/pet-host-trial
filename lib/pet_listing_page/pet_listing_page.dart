@@ -57,7 +57,7 @@ class PetListingPage extends StatelessWidget {
                               ? Color(0xff303030)
                               : Color(0xFFA1A1A1),
                         ),
-                        child: Text("View adopted pets"),
+                        child: const Text("View adopted pets"),
                       ),
                     ),
                   ],
@@ -222,14 +222,14 @@ class PetListingPage extends StatelessWidget {
                           child: Container(
                             width: 400,
                             height: 400,
-                            decoration: BoxDecoration(
+                            decoration:  BoxDecoration(
                               shape: BoxShape.circle,
-                              // image: DecorationImage(
-                              //     fit: BoxFit.cover,
-                              //     image:
-                              //         AssetImage("assets/images/dog/1.jpeg")),
+                              image: DecorationImage(
+                                  fit: BoxFit.cover,
+                                  image:
+                                      AssetImage(datum["imgSrc"].toString())),
                             ),
-                            child: Image.asset("assets/images/dog/1.jpeg"),
+                            // child: Image.asset('${datum["imgSrc"]}'),
                           ),
                         ),
                       ),
