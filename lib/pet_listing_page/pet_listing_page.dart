@@ -22,7 +22,7 @@ class PetListingPage extends StatelessWidget {
                 Row(
                   children: [
                     SvgPicture.asset(
-                      "icons/moon.svg",
+                      "assets/icons/moon.svg",
                       width: 20,
                       height: 20,
                     ),
